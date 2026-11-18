@@ -1,0 +1,1 @@
+{"mcpServers":{"filesystem":{"args":["-y","@modelcontextprotocol/server-filesystem","REPLACE_WITH_YOUR_SHARE_DIR"],"command":"npx"},"playwright":{"args":["-y","@playwright/mcp@latest"],"command":"npx"}}}
