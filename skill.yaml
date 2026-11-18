@@ -1,0 +1,14 @@
+name: muse-local-mcp
+version: 1.0.0
+description: 在本地电脑安装 MCP 服务，让云端 Agent 经带 Token 的 HTTPS 隧道安全操控本机文件、桌面与浏览器。
+entry: SKILL.md
+platforms:
+  - windows
+  - macos
+  - linux
+requires:
+  - Node.js 20+
+  - Git
+optional:
+  - cloudflared 或 Tailscale（二选一，云端路线必需）
+  - Python 3.11+（部分 MCP Server 需要）
